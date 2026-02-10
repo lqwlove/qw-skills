@@ -1,6 +1,6 @@
 ---
 name: qw-txt2img
-description: 使用工作流进行文生图。图片会自动下载到output文件夹，文件名自动递增编号。
+description: 使用工作流, 根据文字生成图片。
 ---
 
 # Text-to-Image
@@ -22,8 +22,6 @@ python ${SKILL_DIR}/scripts/main.py --prompt "一个女孩在海边散步"
 # With custom dimensions
 python ${SKILL_DIR}/scripts/main.py --prompt "夕阳下的城市风光" --width 1920 --height 1080
 
-# Generate multiple images
-python ${SKILL_DIR}/scripts/main.py --prompt "古风美女" --batch 4
 ```
 
 ## Options
@@ -33,7 +31,6 @@ python ${SKILL_DIR}/scripts/main.py --prompt "古风美女" --batch 4
 | `--prompt <text>` | Prompt text (required) |
 | `--width <int>` | Image width, default 1080 |
 | `--height <int>` | Image height, default 1920 |
-| `--batch <int>` | Batch size, default 1 |
 
 ## Configuration
 

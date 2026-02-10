@@ -40,7 +40,6 @@ def run_workflow(
             {"nodeId": "13", "fieldName": "text", "fieldValue": prompt},
             {"nodeId": "21", "fieldName": "value", "fieldValue": width},
             {"nodeId": "23", "fieldName": "value", "fieldValue": height},
-            {"nodeId": "24", "fieldName": "value", "fieldValue": batch_size},
         ],
     }
     response = requests.post(url, headers=HEADERS, json=payload)

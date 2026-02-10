@@ -1,6 +1,6 @@
 ---
 name: qw-image-edit
-description: 上传图片并使用RunningHub工作流进行图片编辑，最后下载生成图片到output文件夹。
+description: 图生图, 修改图片。通过本地图片进行上传, 根据上传后的图片地址执行图生图的工作流。
 ---
 
 # QW Image Edit
